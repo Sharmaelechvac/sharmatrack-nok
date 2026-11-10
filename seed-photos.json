@@ -7,5 +7,14 @@
   "taken_at": "2026-11-10T14:40:00.000Z",
   "name": "glaze-shower-light-wiring.jpg",
   "seed": true
+ },
+ {
+  "job": "glaze",
+  "caption": "ROUGH \u00b7 Add in new bathroom tub light wiring",
+  "url": "/seed-photos/glaze-tub-light-wiring.jpg",
+  "media_type": "image/jpeg",
+  "taken_at": "2026-11-10T14:53:00.000Z",
+  "name": "glaze-tub-light-wiring.jpg",
+  "seed": true
  }
 ]
