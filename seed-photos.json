@@ -25,5 +25,50 @@
   "taken_at": "2026-11-10T15:44:00.000Z",
   "name": "glaze-sconce-switch-box.jpg",
   "seed": true
+ },
+ {
+  "job": "glaze",
+  "caption": "ROUGH \u00b7 Relocated into bathroom toilet closet (20A circuit)",
+  "url": "/seed-photos/glaze-toilet-closet-relocated-1.jpg",
+  "media_type": "image/jpeg",
+  "taken_at": "2026-11-10T17:01:12.000Z",
+  "name": "glaze-toilet-closet-relocated-1.jpg",
+  "seed": true
+ },
+ {
+  "job": "glaze",
+  "caption": "ROUGH \u00b7 Relocated into bathroom toilet closet (20A circuit)",
+  "url": "/seed-photos/glaze-toilet-closet-relocated-2.jpg",
+  "media_type": "image/jpeg",
+  "taken_at": "2026-11-10T17:01:04.000Z",
+  "name": "glaze-toilet-closet-relocated-2.jpg",
+  "seed": true
+ },
+ {
+  "job": "glaze",
+  "caption": "ROUGH \u00b7 Another one on same wall relocated",
+  "url": "/seed-photos/glaze-same-wall-relocated-1.jpg",
+  "media_type": "image/jpeg",
+  "taken_at": "2026-11-10T16:25:08.000Z",
+  "name": "glaze-same-wall-relocated-1.jpg",
+  "seed": true
+ },
+ {
+  "job": "glaze",
+  "caption": "ROUGH \u00b7 Another one on same wall relocated",
+  "url": "/seed-photos/glaze-same-wall-relocated-2.jpg",
+  "media_type": "image/jpeg",
+  "taken_at": "2026-11-10T16:25:07.000Z",
+  "name": "glaze-same-wall-relocated-2.jpg",
+  "seed": true
+ },
+ {
+  "job": "glaze",
+  "caption": "ROUGH \u00b7 Plug was eliminated and redirected feed into existing outlet from light switch",
+  "url": "/seed-photos/glaze-plug-eliminated-feed-redirected.jpg",
+  "media_type": "image/jpeg",
+  "taken_at": "2026-11-10T16:25:13.000Z",
+  "name": "glaze-plug-eliminated-feed-redirected.jpg",
+  "seed": true
  }
 ]
