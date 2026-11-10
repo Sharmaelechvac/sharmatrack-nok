@@ -16,5 +16,14 @@
   "taken_at": "2026-11-10T14:53:00.000Z",
   "name": "glaze-tub-light-wiring.jpg",
   "seed": true
+ },
+ {
+  "job": "glaze",
+  "caption": "ROUGH \u00b7 Switch box wire landed for sconces",
+  "url": "/seed-photos/glaze-sconce-switch-box.jpg",
+  "media_type": "image/jpeg",
+  "taken_at": "2026-11-10T15:44:00.000Z",
+  "name": "glaze-sconce-switch-box.jpg",
+  "seed": true
  }
 ]

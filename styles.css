@@ -423,3 +423,4 @@ body.lb-open{overflow:hidden}
 .proglog li{padding:7px 0;border-top:1px solid #d7e6f5;font-size:.98rem;color:var(--ink)}
 .proglog li:first-child{border-top:none;padding-top:0}
 .proglog li b{color:#004585}
+.proglog li a{color:#0058a3;font-weight:700}
