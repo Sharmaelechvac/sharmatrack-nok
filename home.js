@@ -14,25 +14,25 @@
     "Range & water heater", "HVAC power & disconnects",
     "Exterior & garage boxes", "Sealed penetrations"
   ];
-  var JOBS = [];
+  var JOBS = ["glaze", "109-forest-park-ct", "antle"];
 
   var UI = {
     en: {
       language: "Language", byLine: "by Sharma Electric & HVAC", builderEd: "Builder edition",
       crewJobs: "Jobs", employees: "Employees",
-      coc: "Code of Conduct →", searchPh: "Search address, city, builder…",
-      st0: "Not started", st1: "In progress", st2: "Complete"
+      coc: "Code of Conduct", searchPh: "Search address, city, builder…",
+      st0: "Not started", st1: "In progress", st2: "Done"
     },
     es: {
       language: "Idioma", byLine: "por Sharma Electric & HVAC", builderEd: "Edição do construtor", builderEd: "Edición del constructor",
       crewJobs: "Trabajos", employees: "Empleados",
-      coc: "Código de conducta →", searchPh: "Buscar dirección, ciudad, constructor…",
-      st0: "Sin empezar", st1: "En progreso", st2: "Completo"
+      coc: "Código de conducta", searchPh: "Buscar dirección, ciudad, constructor…",
+      st0: "Sin empezar", st1: "En progreso", st2: "Terminado"
     },
     pt: {
       language: "Idioma", byLine: "por Sharma Electric & HVAC",
       crewJobs: "Trabalhos", employees: "Funcionários",
-      coc: "Código de conduta →", searchPh: "Buscar endereço, cidade, construtora…",
+      coc: "Código de conduta", searchPh: "Buscar endereço, cidade, construtora…",
       st0: "Não iniciado", st1: "Em andamento", st2: "Concluído"
     }
   };
@@ -77,7 +77,7 @@
   }
   function loadCounts(seedRows) {
     JOBS.forEach(function (id) {
-      fetch("/api/photos?job=" + encodeURIComponent(id))
+      fetch("https://sharmatrack-crew.pages.dev/api/photos?job=" + encodeURIComponent(id))
         .then(function (r) { return r.ok ? r.json() : []; })
         .then(function (rows) {
           counts[id] = coveredCount(id, seedRows, Array.isArray(rows) ? rows : []);
@@ -117,4 +117,7 @@
   }
   renderText();
   loadSeedsThenCounts();
+
+  /* One-page shell hook: pull-to-refresh re-runs the same data loads. */
+  window.__hubRefresh = function () { loadSeedsThenCounts(); return Promise.resolve(); };
 })();
