@@ -62,11 +62,14 @@
       var prog = card.querySelector("[data-prog]");
       var chip = card.querySelector("[data-chip]");
       if (!prog || !chip) return;
-      if (n == null) { prog.textContent = "—/" + ROUGH_EN.length; chip.hidden = true; return; }
-      prog.textContent = n + "/" + ROUGH_EN.length;
+      if (n == null) { prog.textContent = "—/" + ROUGH_EN.length; prog.style.display = ""; chip.hidden = true; return; }
       chip.hidden = false;
       chip.className = "chip " + (n === 0 ? "st0" : n >= ROUGH_EN.length ? "st2" : "st1");
       chip.textContent = n === 0 ? t().st0 : n >= ROUGH_EN.length ? t().st2 : t().st1;
+      /* one kit status at the endpoints: no "0/16 + Not started" pair
+         (Steve's review, 2026-11-19); the count shows once work starts */
+      if (n === 0 || n >= ROUGH_EN.length) prog.style.display = "none";
+      else { prog.style.display = ""; prog.textContent = n + "/" + ROUGH_EN.length; }
     });
   }
   function coveredCount(jobId, seedRows, apiRows) {
