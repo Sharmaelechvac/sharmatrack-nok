@@ -1,0 +1,46 @@
+{
+  "app": "SHARMATRACK",
+  "edition": "nok",
+  "builder": "NOK Construction",
+  "builderLogo": "nok-logo.png",
+  "builderLogoStatus": "on-file",
+  "trades": [
+    "Electrical"
+  ],
+  "liveUrl": "https://sharmaelechvac.github.io/sharmatrack-nok/",
+  "repo": "Sharmaelechvac/sharmatrack-nok",
+  "shell": {
+    "macos": "canonical",
+    "skBridge": "canonical"
+  },
+  "shellSource": "~/workspace/sharmatrack-core (edit the shell there, run tools/sync.py \u2014 never fork shell files here)",
+  "houses": [
+    {
+      "dir": "glaze",
+      "jobId": "glaze",
+      "address": "132 Balmy Coast Road",
+      "city": "Groveland, FL",
+      "trades": [
+        "Electrical"
+      ]
+    },
+    {
+      "dir": "109-forest-park-ct",
+      "jobId": "109-forest-park-ct",
+      "address": "109 Forest Park Ct",
+      "city": "Longwood, FL",
+      "trades": [
+        "Electrical"
+      ]
+    },
+    {
+      "dir": "antle",
+      "jobId": "antle",
+      "address": "3119 Colorado Ave",
+      "city": "Orlando, FL",
+      "trades": [
+        "Electrical"
+      ]
+    }
+  ]
+}
