@@ -14,7 +14,7 @@
     "Range & water heater", "HVAC power & disconnects",
     "Exterior & garage boxes", "Sealed penetrations"
   ];
-  var JOBS = ["glaze", "109-forest-park-ct", "antle"];
+  var JOBS = ["glaze", "109-forest-park-ct", "antle", "haughton", "smith", "camarano", "ream", "alvarez"];
 
   var UI = {
     en: {

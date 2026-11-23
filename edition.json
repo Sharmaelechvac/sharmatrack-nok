@@ -41,6 +41,51 @@
       "trades": [
         "Electrical"
       ]
+    },
+    {
+      "dir": "haughton",
+      "jobId": "haughton",
+      "address": "14410 Ainsdale Ct",
+      "city": "Orlando, FL",
+      "trades": [
+        "Electrical"
+      ]
+    },
+    {
+      "dir": "smith",
+      "jobId": "smith",
+      "address": "4795 Jessamine Ln",
+      "city": "Orlando, FL",
+      "trades": [
+        "Electrical"
+      ]
+    },
+    {
+      "dir": "camarano",
+      "jobId": "camarano",
+      "address": "5205 Jade Circle",
+      "city": "Belle Isle, FL",
+      "trades": [
+        "Electrical"
+      ]
+    },
+    {
+      "dir": "ream",
+      "jobId": "ream",
+      "address": "2154 Rickover Pl",
+      "city": "Winter Garden, FL",
+      "trades": [
+        "Electrical"
+      ]
+    },
+    {
+      "dir": "alvarez",
+      "jobId": "alvarez",
+      "address": "13707 Phoenix Dr",
+      "city": "Orlando, FL",
+      "trades": [
+        "Electrical"
+      ]
     }
   ]
 }
